@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+    background-color: #ffffff;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+#navbar a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color:#e63946;
+    
+}
+#navbar a:hover{
+    color:#457b9d;
+    transition: color 1s;
+}
+.bodyy{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 70 px;
+    padding-right: 100px ;
+    text-align: center;
+}
+
+.introwelcome{
+    padding-left: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome h1{
+    color: #1d3557;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    line-height: 88px;
+    text-align: left;
+    
+}
+
+
+.welcome p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15 px;
+    line-height: 17px;
+    color: #457b9d;
+    text-align: left;
+}
+.welcome #amanda:hover{
+    color:#457b9d;
+    transition: color 1s;
+}
+.introwelcome img{
+    width: 500px;
+}
+img{
+    width: 250px;
+}
+.myself{
+    padding-left: 130px;
+    padding-right: 130px;
+    font-size: 15 px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
+    font-weight:500;
+    color:#1d3557; 
+    text-align: center;
+    
+  
+    
+}
